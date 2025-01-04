@@ -11,14 +11,14 @@
 @font-face {
   font-family: 'Helvetica Now Text';
   src: url('..../fonts/HelveticaNowText-Regular.woff2') format('woff2');
-  font-weight: 500;
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Helvetica Now Text';
   src: url('..../fonts/HelveticaNowText-LightItalic.woff2') format('woff2');
-  font-weight: 100;
+  font-weight: 300;
   font-style: italic;
 }
 
@@ -193,7 +193,7 @@ body {
 
 .path-frontpage h2 a {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: normal;
   text-decoration: none;
   line-height: 2rem;
   z-index: 1
@@ -217,10 +217,10 @@ body {
 
 .path-frontpage .field--name-field-subtitle {
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   z-index: 3;
   display: block;
-  font-weight: 100
+  font-weight: 300
 }
 
 .path-frontpage .field--name-field-project-images {
@@ -250,7 +250,7 @@ body {
 
 .page-node-type-project .page-title {
   text-align: center;
-  font-weight: 500;
+  font-weight: normal;
   padding-top: 10px
 }
 
@@ -273,11 +273,11 @@ body {
 
 .page-node-type-project .field--name-body,
 .page-node-type-project .field--name-field-extra-info {
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   line-height: 2rem;
   max-width: 800px;
   margin: 0 auto;
-  font-weight: 100
+  font-weight: 300
 }
 
 .page-node-type-project .field--name-body p,
@@ -287,7 +287,7 @@ body {
 
 .page-node-type-project .field--name-body p strong,
 .page-node-type-project .field--name-field-extra-info p strong {
-  font-weight: 400
+  font-weight: normal
 }
 
 .page-node-type-project .field--name-field-extra-info {
@@ -451,11 +451,11 @@ body {
 }
 
 .imgvstext .field--name-field-text {
-  font-size: 2rem;
+  font-size: 1.0rem;
   text-align: center;
   vertical-align: bottom;
   text-transform: uppercase;
-  font-weight: 100
+  font-weight: 300
 }
 
 .imgvstext .slick-slide {
@@ -617,7 +617,7 @@ body {
 .path-selected-texts h2,
 .page-node-type-news h2,
 .page-node-type-text h2 {
-  font-weight: 100;
+  font-weight: 300;
   margin-bottom: 1px
 }
 
@@ -658,7 +658,7 @@ body {
 .page-node-type-news .page-title,
 .page-node-type-text .page-title {
   display: block;
-  font-weight: 100;
+  font-weight: 300;
   margin-bottom: 1px
 }
 

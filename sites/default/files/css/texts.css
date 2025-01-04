@@ -216,7 +216,7 @@ body {
 }
 
 .path-frontpage .field--name-field-subtitle {
-  font-style: italic;
+  font-style: normal;
   font-size: 1.0rem;
   z-index: 3;
   display: block;

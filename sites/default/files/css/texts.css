@@ -220,7 +220,7 @@ body {
   font-size: 1.0rem;
   z-index: 3;
   display: block;
-  font-weight: 300
+  font-weight: normal
 }
 
 .path-frontpage .field--name-field-project-images {
@@ -277,7 +277,7 @@ body {
   line-height: 2rem;
   max-width: 800px;
   margin: 0 auto;
-  font-weight: 300
+  font-weight: normal
 }
 
 .page-node-type-project .field--name-body p,
@@ -455,7 +455,7 @@ body {
   text-align: center;
   vertical-align: bottom;
   text-transform: uppercase;
-  font-weight: 300
+  font-weight: normal
 }
 
 .imgvstext .slick-slide {
@@ -543,7 +543,7 @@ body {
 
 .slick-lightbox .slick-lightbox-inner .slick-lightbox-close::before {
   color: black;
-  font-size: 3rem;
+  font-size: 2rem;
   position: fixed;
   top: 10px;
   right: 25px
@@ -617,7 +617,7 @@ body {
 .path-selected-texts h2,
 .page-node-type-news h2,
 .page-node-type-text h2 {
-  font-weight: 300;
+  font-weight: normal;
   margin-bottom: 1px
 }
 
@@ -658,7 +658,7 @@ body {
 .page-node-type-news .page-title,
 .page-node-type-text .page-title {
   display: block;
-  font-weight: 300;
+  font-weight: normal;
   margin-bottom: 1px
 }
 

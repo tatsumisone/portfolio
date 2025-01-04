@@ -192,7 +192,7 @@ body {
 }
 
 .path-frontpage h2 a {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: normal;
   text-decoration: none;
   line-height: 2rem;
@@ -262,7 +262,7 @@ body {
 
 .page-node-type-project .field--name-field-year,
 .page-node-type-project .field--name-field-materials {
-  font-size: 1.25rem
+  font-size: 1.0rem
 }
 
 .page-node-type-project .field--name-field-year {
@@ -543,7 +543,7 @@ body {
 
 .slick-lightbox .slick-lightbox-inner .slick-lightbox-close::before {
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: fixed;
   top: 10px;
   right: 25px
@@ -604,7 +604,7 @@ body {
 #block-mainnavigation li.menu-item a {
   text-decoration: none;
   text-transform: lowercase;
-  font-size: 1.25rem
+  font-size: 1.0rem
 }
 
 #block-mainnavigation li.menu-item a:hover,
@@ -635,7 +635,7 @@ body {
 .page-node-type-news article,
 .page-node-type-text article {
   max-width: 800px;
-  font-size: 1.5rem
+  font-size: 1.0rem
 }
 
 .page-node-type-page article p,
@@ -687,7 +687,7 @@ body {
 }
 
 .fftb {
-  font-size: 1.25rem;
+  font-size: 1.0rem;
   display: none;
   position: fixed;
   top: 5px;

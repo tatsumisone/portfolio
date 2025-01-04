@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: 'FreightBigProLight';
-  src: url('FreightBigProLight-Regular.woff') format('woff'),
+  src: url('..../fonts/FreightBigProLight-Regular.woff') format('woff'),
   font-weight: 300;
   font-style: normal;
 }
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: 'PP Editorial New';
-  src: url('PPEditorialNew-UltralightItalic.woff2') format('woff2');
+  src: url('..../fonts/PPEditorialNew-UltralightItalic.woff2') format('woff2');
   font-weight: 200;
   font-style: italic;
   font-display: swap;

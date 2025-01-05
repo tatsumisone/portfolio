@@ -191,6 +191,16 @@ body {
   z-index: 1
 }
 
+@media (max-width: 768px) {
+.path-frontpage h2 a {
+  font-size: 1.0rem;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 2rem;
+  z-index: 1
+}
+}
+
 .path-frontpage h2 a:hover {
   text-decoration: none
 }
@@ -200,7 +210,7 @@ body {
 }
 
 .path-frontpage .field--name-field-year {
-  font-size: 1.5rem
+  font-size: 1.2rem
 }
 
 .path-frontpage .field--name-field-year:after {
@@ -209,10 +219,20 @@ body {
 
 .path-frontpage .field--name-field-subtitle {
   font-style: normal;
-  font-size: 0.7rem;
+  font-size: 1.5rem;
   z-index: 3;
   display: block;
   font-weight: normal
+}
+
+@media (max-width: 768px) {
+  .path-frontpage .field--name-field-subtitle {
+    font-style: normal;
+    font-size: 1.0rem;
+    z-index: 3;
+    display: block;
+    font-weight: normal
+  }
 }
 
 .path-frontpage .field--name-field-project-images {
@@ -265,7 +285,7 @@ body {
 
 .page-node-type-project .field--name-body,
 .page-node-type-project .field--name-field-extra-info {
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   max-width: 800px;
   margin: 0 auto;
@@ -443,7 +463,7 @@ body {
 }
 
 .imgvstext .field--name-field-text {
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   text-align: center;
   vertical-align: bottom;
   text-transform: uppercase;
@@ -535,7 +555,7 @@ body {
 
 .slick-lightbox .slick-lightbox-inner .slick-lightbox-close::before {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   position: fixed;
   top: 10px;
   right: 25px

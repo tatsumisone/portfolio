@@ -17,27 +17,19 @@
 
 @font-face {
   font-family: 'Helvetica Now Text';
-  src: url('..../fonts/HelveticaNowText-LightItalic.woff2') format('woff2');
-  font-weight: 300;
-  font-style: italic;
-}
-
-
-@font-face {
-  font-family: 'PP Editorial New';
-  src: url('..../fonts/PPEditorialNew-Regular.woff2') format('woff2');
+  src: url('HelveticaNowText-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'PP Editorial New';
-  src: url('..../fonts/PPEditorialNew-UltralightItalic.woff2') format('woff2');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
+  font-family: 'Helvetica Now Text';
+  src: url('HelveticaNowText-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
 }
+
+
 
 body {
   font-family: "Helvetica Now Text" , sans-serif;
@@ -193,7 +185,7 @@ body {
 
 .path-frontpage h2 a {
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: 500;
   text-decoration: none;
   line-height: 2rem;
   z-index: 1
@@ -217,7 +209,7 @@ body {
 
 .path-frontpage .field--name-field-subtitle {
   font-style: normal;
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   z-index: 3;
   display: block;
   font-weight: normal
@@ -250,7 +242,7 @@ body {
 
 .page-node-type-project .page-title {
   text-align: center;
-  font-weight: normal;
+  font-weight: 500;
   padding-top: 10px
 }
 

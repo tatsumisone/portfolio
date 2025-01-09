@@ -190,6 +190,16 @@ body {
   margin: 0 auto; /* 中央揃え（必要に応じて） */
 }
 
+/*projectの画像を、指定しなくても指定数値にする*/
+@media (max-width: 768px) {
+.field.field--name-field-images.field--type-image.field--label-hidden.field__items .field__item img
+{
+  height: 600;
+  width: auto; /* 高さを固定 */
+  display: block; /* レイアウトの余計な隙間を防ぐ */
+  margin: 0 auto; /* 中央揃え（必要に応じて） */
+}
+}
 
 /*indexの画像を、指定しなくても指定数値にする*/
 .field.field--name-field-project-images.field--type-image.field--label-hidden.field__items .field__item img
@@ -198,6 +208,17 @@ body {
   height: 360px; /* 高さを固定 */
   display: block; /* レイアウトの余計な隙間を防ぐ */
   margin: 0 auto; /* 中央揃え（必要に応じて） */
+}
+
+/*indexの画像を、指定しなくても指定数値にする*/
+@media (max-width: 768px) {
+.field.field--name-field-project-images.field--type-image.field--label-hidden.field__items .field__item img
+{
+  width: auto;
+  height: 200px; /* 高さを固定 */
+  display: block; /* レイアウトの余計な隙間を防ぐ */
+  margin: 0 auto; /* 中央揃え（必要に応じて） */
+}
 }
 
 .path-frontpage h2 {
@@ -721,7 +742,7 @@ body {
   display: none;
   text-transform: uppercase;
   position: absolute;
-  bottom: -30px;
+  bottom: 0px;
   left: 0;
   right: 0;
   text-align: center

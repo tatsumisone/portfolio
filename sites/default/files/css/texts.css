@@ -215,8 +215,8 @@ body {
 @media (max-width: 768px) {
 .field.field--name-field-project-images.field--type-image.field--label-hidden.field__items .field__item img
 {
-  max-height: 100%;
-  width: auto;
+  height: auto;
+  max-width: 30%;
   display: block; /* レイアウトの余計な隙間を防ぐ */
   margin: 0 auto; /* 中央揃え（必要に応じて） */
 }

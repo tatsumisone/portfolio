@@ -180,9 +180,20 @@ body {
   display: block
 }*/
 
+/*projectの画像を、指定しなくても指定数値にする*/
 
-/*indexの画像を、指定しなくても高さを指定数値にする*/
-.field.field--name-field-project-images.field--type-image.field--label-hidden.field__items .field__item{
+.field.field--name-field-images.field--type-image.field--label-hidden.field__items .field__item img
+{
+  height: auto;
+  width: 800px; /* 高さを固定 */
+  display: block; /* レイアウトの余計な隙間を防ぐ */
+  margin: 0 auto; /* 中央揃え（必要に応じて） */
+}
+
+
+/*indexの画像を、指定しなくても指定数値にする*/
+.field.field--name-field-project-images.field--type-image.field--label-hidden.field__items .field__item img
+{
   width: auto;
   height: 360px; /* 高さを固定 */
   display: block; /* レイアウトの余計な隙間を防ぐ */

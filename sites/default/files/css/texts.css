@@ -260,7 +260,7 @@ body {
 
 @media (max-width: 768px) {
   .path-frontpage .field--name-field-year {
-    font-size: 1.2rem
+    font-size: 1.2rem;
     font-weight: 500
   }
 }

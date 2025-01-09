@@ -184,8 +184,8 @@ body {
 
 .field.field--name-field-images.field--type-image.field--label-hidden.field__items .field__item img
 {
-  height: auto;
-  width: 800px; /* 高さを固定 */
+  height: 800;
+  width: auto; /* 高さを固定 */
   display: block; /* レイアウトの余計な隙間を防ぐ */
   margin: 0 auto; /* 中央揃え（必要に応じて） */
 }
@@ -375,7 +375,7 @@ body {
 .page-node-type-project .field--name-field-project-images img,
 .page-node-type-project .field--name-field-extra-images img,
 .page-node-type-project .field--name-field-img-vs-text img {
-  max-height: 450px;
+  max-height: 800px;
   width: auto;
   cursor: pointer
 }
@@ -401,7 +401,7 @@ body {
 .page-node-type-project .field--name-field-project-images img,
 .page-node-type-project .field--name-field-extra-images img {
   margin: 20px auto;
-  max-width: 600px
+  max-width: 800px
 }
 
 .page-node-type-project .field--name-field-grid-images .field__item {

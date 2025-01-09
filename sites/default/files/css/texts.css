@@ -175,13 +175,14 @@ body {
   line-height: 1.65rem
 }
 
+/*ホバーしたときのみタイトル表示*/
 /*.path-frontpage .project article:hover .field--name-field-project-images {
   display: block
 }*/
 
-/*ホバーしたときのみ表示*/
 
-.field--name-field-project-images {
+/*indexの画像を、指定しなくても高さを指定数値にする*/
+.field.field--name-field-project-images.field--type-image.field--label-hidden.field__items .field__item{
   width: auto;
   height: 360px; /* 高さを固定 */
   display: block; /* レイアウトの余計な隙間を防ぐ */

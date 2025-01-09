@@ -178,7 +178,16 @@ body {
 /*.path-frontpage .project article:hover .field--name-field-project-images {
   display: block
 }*/
+
 /*ホバーしたときのみ表示*/
+
+.field--name-field-project-images {
+  width: auto;
+  height: 360px; /* 高さを固定 */
+  display: block; /* レイアウトの余計な隙間を防ぐ */
+  margin: 0 auto; /* 中央揃え（必要に応じて） */
+}
+
 .path-frontpage h2 {
   margin: 0
 }
@@ -186,6 +195,7 @@ body {
 .path-frontpage h2 a {
   font-size: 1.5rem;
   font-weight: normal;
+  text-transform: uppercase;
   text-decoration: none;
   line-height: 2rem;
   z-index: 1
@@ -194,7 +204,8 @@ body {
 @media (max-width: 768px) {
 .path-frontpage h2 a {
   font-size: 1.2rem;
-  font-weight: normal;
+  font-weight: 500;
+  text-transform: uppercase;
   text-decoration: none;
   line-height: 2rem;
   z-index: 1

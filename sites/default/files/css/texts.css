@@ -35,6 +35,9 @@ body {
   font-family: "Helvetica Now Text" , sans-serif;
 }
 
+bodyjp {
+  font-family: "IPAexGothic" , sans-serif;
+}
 
 .slick-lightbox {
   position: fixed;
@@ -344,12 +347,31 @@ body {
   font-weight: normal
 }
 
+.page-node-type-project .field--name-bodyjp,
+.page-node-type-project .field--name-field-extra-info {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: normal
+}
+
 .page-node-type-project .field--name-body p,
 .page-node-type-project .field--name-field-extra-info p {
   margin: 0 0 10px 0
 }
 
+.page-node-type-project .field--name-bodyjp p,
+.page-node-type-project .field--name-field-extra-info p {
+  margin: 0 0 10px 0
+}
+
 .page-node-type-project .field--name-body p strong,
+.page-node-type-project .field--name-field-extra-info p strong {
+  font-weight: normal
+}
+
+.page-node-type-project .field--name-bodyjp p strong,
 .page-node-type-project .field--name-field-extra-info p strong {
   font-weight: normal
 }
@@ -381,7 +403,20 @@ body {
   content: ''
 }
 
+.page-node-type-project .field--name-bodyjp p:after {
+  display: block;
+  content: '';
+  margin-bottom: 10px;
+  content: ''
+}
+
 .page-node-type-project .field--name-body p:last-child:after {
+  content: '';
+  display: inline;
+  margin-bottom: 0
+}
+
+.page-node-type-project .field--name-bodyjp p:last-child:after {
   content: '';
   display: inline;
   margin-bottom: 0
